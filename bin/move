@@ -9,3 +9,4 @@ puts "Place your piece (1-9)"
 input = gets.strip
 position = input_to_index(input)
 move(board, position)
+display_board
